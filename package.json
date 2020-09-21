@@ -1,0 +1,29 @@
+{
+  "name": "motiv-fe-dev-test",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -w --config webpack.config.js"
+  },
+  "author": "Motiv Studio Ltd.",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.0.4",
+    "browserslist": "^4.13.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.5.3",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.0.0",
+    "node-sass": "^4.14.0",
+    "sass-loader": "^9.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-fix-style-only-entries": "^0.5.1"
+  }
+}
